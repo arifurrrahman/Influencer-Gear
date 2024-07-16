@@ -40,6 +40,60 @@ body {
     color: rgb(58, 58, 58);
 }
 
+.description{
+    max-width: 582px;
+    max-height: 270px;
+}
+.camera{
+    background-image: url('../images/Circle\ design.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 475px;
+    max-height: 475px;
+}
+
+.cam-description-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.description h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+}
+
+.description p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}
+
+.banner-btn{
+    background-color: rgb(224, 44, 109);
+    border-radius: 41px;
+    border: none;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-top: 16px;
+}
+
+.brand-logo{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    max-width: 1000px;
+    max-height: 110px;
+    margin: 85px auto 0px;
+    padding: 20px 62px;
+}
+
+.brand-logo img{
+    width: 65px;
+    height: 65px;
+}
 @media screen and (max-width:576px) {
     .banner-nav-section {
         flex-direction: column;
@@ -56,5 +110,41 @@ body {
     }
     .icon-image{
         padding: 0 25px;
+    }
+    .cam-description-section{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        /* flex-direction: column; */
+    }
+    .camera img{
+        max-width: 257px;
+        max-height: 257px;
+    }
+    .camera{
+        background-size: cover;
+    }
+    .description{
+        text-align: center;
+    }
+    .description h1{
+        font-size: 2rem;
+    }
+    .description p{
+        font-size: 1.1rem;
+        opacity: 0.9;
+    }
+    .brand-logo{
+        max-width: 250px;
+        max-height: 60px;
+        margin-top: 30px;
+        grid-template-columns: repeat(4, 1fr);
+        
+        border: 1px solid black;
+    }
+    .brand-logo img{
+        width: 60px;
+        height: 15px;
     }
 }
