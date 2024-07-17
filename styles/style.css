@@ -135,8 +135,8 @@ body {
 
 .see-more{
     margin-top: 50px;
-    /* display: flex;
-    justify-content: flex-end; */
+    display: flex;
+    justify-content: flex-end;
 }
 .see {
     text-decoration: none;
