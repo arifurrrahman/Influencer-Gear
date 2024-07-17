@@ -205,7 +205,7 @@ body {
     }
     .collection-container{
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 40px;
+        margin-left: 30px;
     }
     .collection-head{
         font-size: 0.7rem;
@@ -213,7 +213,7 @@ body {
     }
     .see-more{
         margin-top: 2350px;
-        margin-left: 315px;
+        margin-left: 290px;
     }
     .see{
         font-weight: 700;
