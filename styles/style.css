@@ -193,15 +193,12 @@ body {
         width: 60px;
         height: 15px;
     }
-    .popular-collection{
-        grid-template-columns: repeat(1, 1fr);
-    }
     .collection-container{
         grid-template-columns: repeat(1, 1fr);
-        border: 1ps solid black;
+        margin-left: 40px;
     }
-    .collection{
-        border: 1ps solid black;
-        margin-right: 200px;
+    .collection-head{
+        font-size: 0.7rem;
+        margin-left: 115px;
     }
 }
