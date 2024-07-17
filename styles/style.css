@@ -133,7 +133,17 @@ body {
     margin: 10px auto 30px;
 }
 
-.collection h2 {}
+.see-more{
+    margin-top: 50px;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+.see {
+    text-decoration: none;
+    font-size: 0.8;
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87); 
+}
 
 @media screen and (max-width:576px) {
     .banner-nav-section {
@@ -200,5 +210,12 @@ body {
     .collection-head{
         font-size: 0.7rem;
         margin-left: 115px;
+    }
+    .see-more{
+        margin-top: 2250px;
+        margin-left: 315px;
+    }
+    .see{
+        font-weight: 700;
     }
 }
